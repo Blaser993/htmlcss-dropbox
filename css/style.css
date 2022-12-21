@@ -64,12 +64,13 @@ img{
 }
 
 .container{
-    max-width: 900px;
+    max-width: 1040px;
     margin: 0 auto;
 }
 
 .row{
     display: flex;
+    flex-wrap: wrap;
 }
 
 .col{
@@ -175,7 +176,10 @@ main p{
 
 /* FIRST SECTION */
 
-
+.first{
+    margin-top: 72px;
+    padding: 36px 0;
+}
 
 
 /* ----FOOTER RULES -------------------------------------------------------- */
