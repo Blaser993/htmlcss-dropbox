@@ -231,6 +231,25 @@ section{
 
 .debug .debug{
     border: 2px dashed tomato;
+
+}
+
+.card.debug{
+    background-color: aquamarine;
+    min-height: 24px;
+}
+
+.card .intestazione{
+    background-color: antiquewhite;
+    padding: 12px;
+    border: 1px solid tomato;
+}
+
+.card .corpo_carta{
+    background-color: antiquewhite;
+    padding: 12px;
+    min-height: 224px;
+    border: 1px solid tomato;
 }
 
 
