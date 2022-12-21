@@ -166,7 +166,6 @@ main p{
 }
 
 .button-size{
-    min-width: 100%;
     display: inline-block;
     padding: 14px 18px;
     margin: 2em 0;
@@ -195,13 +194,37 @@ main p{
     display: block;
 }
 
+
+.form{
+    padding: 24px 0;
+}
+
 section{
     min-height: fit-content;
+}
+
+.first .row{
+    padding: 12px 32px;
 }
 
 .card{
         /* temporaneo */
     overflow: hidden;
+    /* ----- */
+    border: 1px solid lightgrey;
+}
+
+.card .row{
+    display: flex;
+}
+
+.first .col{
+    flex-shrink: 1;
+}
+
+.intestazione{
+    border-bottom: 1px solid lightgrey;
+    justify-content: center;
 }
 
 .text{
@@ -239,6 +262,6 @@ section{
     color: azure;
 }
 
-.first :only-child{
+-.first :only-child{
     padding: 12px;
 }
