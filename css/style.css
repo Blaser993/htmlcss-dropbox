@@ -120,8 +120,10 @@ img{
 }
 
 .logo{
+    align-self: center;
     max-height: 34px;
     margin-right: 18px;
+    padding: 0;
 }
 
 .button{
