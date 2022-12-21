@@ -211,3 +211,7 @@ main p{
     padding:12px;
     color: azure;
 }
+
+.first :only-child{
+    padding: 12px;
+}
