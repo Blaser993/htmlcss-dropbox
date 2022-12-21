@@ -31,6 +31,10 @@ a{
     color: currentColor;
 }
 
+h3{
+    display: inline-block;
+}
+
 ul,
 li{
     display: inline-block;
@@ -162,12 +166,13 @@ main p{
 }
 
 .button-size{
+    min-width: 100%;
     display: inline-block;
     padding: 14px 18px;
     margin: 2em 0;
 }
 
-.icon{
+.hero .icon{
     font-size: 46px;
     padding-top: 2em;
 }
@@ -179,6 +184,28 @@ main p{
 .first{
     margin-top: 72px;
     padding: 36px 0;
+}
+
+.first .icon{
+    font-size: 46px;
+    padding-top: 2em;
+}
+
+.first li{
+    display: block;
+}
+
+section{
+    min-height: fit-content;
+}
+
+.card{
+        /* temporaneo */
+    overflow: hidden;
+}
+
+.text{
+    display: inline-block;
 }
 
 

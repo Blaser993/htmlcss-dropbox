@@ -74,33 +74,168 @@
 
             <div class="container">
                 <div class="row">
-                    radiobuttons
+                    <div class="col col12">
+                        <form class="debug">
+                            <input class="chekbox" type="radio" id="fatturazione1" name="fatturazione" value="mensile">
+                            <label for="fatturazione1">Fatturazione mensile</label>
+
+                            <input class="chekbox" type="radio" id="fatturazione2" name="fatturazione" value="annuale">
+                            <label for="fatturazione2">Fatturazione annuale</label>
+                        </form>
+                    </div>
                 </div>
 
                 <div class="row">
                     <div class="col col4">
-                        <section class="card debug">
+
+                        <section class="card cardsingolo debug">
                             <div class="row debug">
-                                <div class="col">intestazione</div>
+                                <div class="col">
+                                    <i class="fa-solid fa-user"></i> <h3>Singolo</h3>
+                                </div>
                             </div>
                             <div class="row debug">
-                                <article class="col"> titolo e subtitle bla bla bla bla bla</article>
-                                <div class="col">pulsante e altro bla bla bla bla bla</div>
-                                <article class="col">testo vario bla bla bla bla bla</article>
+                                <article class="col"> 
+                                    <h2>
+                                        Professional
+                                    </h2>
+                                    <p class="subtitle"><strong>€ 12.00</strong></p>
+                                    <p class="description">/mese</p>
+                                    <ul>
+                                        <li>
+                                            <i class="fa-solid fa-user"></i><p class="text">1 utente</p>            
+                                        </li>
+                                        <li>
+                                            <i class="fa-solid fa-folder"></i><p class="text">5 TB di spazio di archiviazione sicuro</p>
+                                        </li>
+                                        <li>
+                                            <i class="fa-solid fa-share-nodes"></i><p class="text">Funzioni di produttività premium e condivisione file semplice e sicura</p>
+                                        </li>
+                                    </ul>
+                                </article>
+                                <div class="col">
+                                    <a class="button button-size" href="">Prova gratis per 30 giorni</a>
+
+                                    <p>oppure <span class="linktext">acquista ora</span></p>
+                                </div>
+                                <article class="col">
+                                    <h4>Punti salienti del piano</h4>
+                                    <ul>
+                                        <li><i class="fa-solid fa-check"></i>Invia fule fino a 100 GB con Dropbox Transfert</li>
+                                        <li><i class="fa-solid fa-check"></i>Cartelle offline su dispositivi mobili</li>
+                                    </ul>
+                                </article>
+                            </div>
+                        </section>
+
+                    </div>
+
+                    <div class="col col4">
+                        <section class="card cardteam debug">
+                            <div class="row debug">
+                                <div class="col">
+                                    <i class="fa-solid fa-people-group"></i><h3>Team</h3>
+                                </div>
+                            </div>
+                            <div class="row debug">
+                                <article class="col"> 
+                                    <h2>
+                                        Advanced
+                                    </h2>
+                                    <p class="subtitle"><strong>€ 18.00</strong></p>
+                                    <p class="description">/utente/mese</p>
+                                    <ul>
+                                        <li>
+                                            <i class="fa-solid fa-people-group"></i><p class="text">3 o più utenti</p>            
+                                        </li>
+                                        <li>
+                                            <i class="fa-solid fa-folder"></i><p class="text">Tutto lo spazio di cui ha bisogno il tuo team</p>
+                                        </li>
+                                        <li>
+                                            <i class="fa-solid fa-share-nodes"></i><p class="text">Sofisticate funzioni di controllo e per tenere al sicuro tutti i file del tuo team</p>
+                                        </li>
+                                    </ul>
+                                </article>
+                                <div class="col">
+                                    <a class="button button-size" href="">Prova gratis per 30 giorni</a>
+
+                                    <p>oppure <span class="linktext">acquista ora</span></p>
+                                </div>
+                                <article class="col">
+                                    <h4>Punti salienti del piano</h4>
+                                    <ul>
+                                        <li><i class="fa-solid fa-check"></i>Nessun limite di spazio per i file</li>
+                                        <li><i class="fa-solid fa-check"></i>Cartelle offline su dispositivi mobili</li>
+                                        <li><i class="fa-solid fa-check"></i>Risparmio del 50% rispetto alle iscrizioni singole</li>
+                                        <li><i class="fa-solid fa-check"></i>Possibilità di inserire nuovi membri del team</li>
+                                        <li><i class="fa-solid fa-check"></i>Gestione dei permessi in base ai ruoli</li>
+                                    </ul>
+                                </article>
                             </div>
                         </section>
                     </div>
-                    <div class="col col4">col4</div>
-                    <div class="col col4">col4</div>
+
+                    <div class="col col4">
+                        <section class="card cardazienda debug">
+                            <div class="row debug">
+                                <div class="col">
+                                    <i class="fa-solid fa-building"></i><h3>Azienda</h3>
+                                </div>
+                            </div>
+                            <div class="row debug">
+                                <article class="col"> 
+                                    <h2>
+                                        Enterprice
+                                    </h2>
+                                    <p class="subtitle"><strong>Contattaci</strong></p>
+                                    <p class="description">-</p>
+                                    <ul>
+                                        <li>
+                                            <i class="fa-solid fa-people-group"></i><p class="text">10 o più utenti</p>            
+                                        </li>
+                                        <li>
+                                            <i class="fa-solid fa-folder"></i><p class="text">Soluzioni personalizzabili per la tua azienda</p>
+                                        </li>
+                                        <li>
+                                            <i class="fa-solid fa-share-nodes"></i><p class="text">Assistenza personalizzata per aiutare gli amministratori in una gestione su larga scala</p>
+                                        </li>
+                                    </ul>
+                                </article>
+                                <div class="col">
+                                    <a class="button button-size" href="">Contattaci</a>
+
+                                    <p>oppure <span class="linktext">acquista ora</span></p>
+                                </div>
+                                <article class="col">
+                                    <h4>Punti salienti del piano</h4>
+                                    <ul>
+                                        <li><i class="fa-solid fa-check"></i>Cartelle offline su dispositivi mobili</li>
+                                        <li><i class="fa-solid fa-check"></i>Servizio assistenza 24/h</li>
+                                        <li><i class="fa-solid fa-check"></i>Possibilità di personalizzazione totale</li>
+                                    </ul>
+                                </article>
+                            </div>
+                        </section>
+                    </div>
+
                     <div class="col col12">
                         <section class="card debug">
                             <div class="row debug">
-                                <div class="col">intestazione</div>
+                                <div class="col">
+                                    <i class="fa-solid fa-building"></i><h3>Team</h3>
+                                </div>
                             </div>
                             <div class="row debug">
-                                <article class="col"> titolo e subtitle bla bla bla bla bla</article>
-                                <div class="col">pulsante e altro bla bla bla bla bla</div>
-                                <article class="col">testo vario bla bla bla bla bla</article>
+                                <article class="col col8"> 
+                                    <h2>Enterprice</h2>
+                                    <p class="subtitle"><strong>Contattaci</strong></p>
+                                </article>
+                                <div class="col col4">
+                                    <a class="button button-size" href="">Contattaci</a>
+                                </div>
+                                <article class="col col12">
+                                    <p>Soluzioni personalizzate e supporto su misura per aiutare i professionisti IT nella gestione su qualsiasi scala.</p>
+                                </article>
                             </div>
                         </section>
                     </div>
