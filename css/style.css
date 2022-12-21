@@ -207,25 +207,13 @@ section{
     padding: 12px 32px;
 }
 
-.card{
-        /* temporaneo */
-    overflow: hidden;
-    /* ----- */
-    border: 1px solid lightgrey;
-}
 
-.card .row{
-    display: flex;
-}
 
-.first .col{
-    flex-shrink: 1;
-}
 
-.intestazione{
-    border-bottom: 1px solid lightgrey;
-    justify-content: center;
-}
+
+
+
+
 
 .text{
     display: inline-block;
