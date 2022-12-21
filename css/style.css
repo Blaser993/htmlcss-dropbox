@@ -26,6 +26,16 @@
     list-style: none;
 }
 
+a{
+    text-decoration: none;
+    color: currentColor;
+}
+
+ul,
+li{
+    display: inline-block;
+}
+
 html{
     font-family: 'Almarai', sans-serif;
 }
@@ -35,7 +45,7 @@ h1{
 }
 
 img{
-    max-width: 100%;
+    max-height: 100%;
     display: block;
 }
 
@@ -57,16 +67,55 @@ img{
 }
 
 .row{
-
+    display: flex;
 }
 
 .col{
-
+    
 }
+
+
 
 
 /* ----HEADER RULES -------------------------------------------------------- */
 
+.header{
+    position: sticky;
+    top: 0%;
+    z-index: 999;
+    font-family:'Almarai';
+    font-size: 16px;
+    font-weight: 400;
+    background-color: #fff;
+    padding: 24px 18px;
+}
+
+.row_header{
+    justify-content: space-between;
+    align-items: center;
+}
+
+.list-menu{
+    display: flex;
+    align-items: center;
+    height: max-content;
+}
+
+.list-item{
+    padding: 0% 18px;
+    line-height: 34px;
+    flex-shrink: 0;
+}
+
+.logo{
+    max-height: 34px;
+    margin-right: 18px;
+}
+
+.button{
+    background-color:#0061FF ;
+    color: white;
+}
 
 /* ----MAIN RULES -------------------------------------------------------- */
 
@@ -83,10 +132,6 @@ img{
     border: 2px dashed tomato;
 }
 
-.debug header{
-    background-color: aquamarine;
-    padding:12px;
-}
 
 .debug main{
     background-color:bisque;
