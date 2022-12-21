@@ -59,6 +59,8 @@ img{
 .container_hero{
     max-width: 1258px;
     margin: 0 auto;
+    position: relative;
+    top: 72px;
 }
 
 .container{
@@ -71,7 +73,7 @@ img{
 }
 
 .col{
-    padding: 12px;
+    position: relative;
     flex-grow: 0;
     flex-shrink: 0;
 }
@@ -142,17 +144,34 @@ main h1{
     line-height: 1.2em;
 }
 
+main p{
+    font-size: 18px;
+    line-height: 1.3em;
+}
+
 .hero{
     background-color: #B4D0E7;
     min-height: 100vh;
 }
 
+.row_title{
+    margin-bottom: 2em;
+}
+
 .button-size{
     display: inline-block;
-    line-height: 34px;
-    padding: 0 18px;
-    font-size: 22px;
+    padding: 14px 18px;
+    margin: 2em 0;
+}
 
+.icon{
+    font-size: 46px;
+    margin-bottom: 1em;
+}
+
+.fissata{
+    position: absolute;
+    bottom: 0%;
 }
 
 
