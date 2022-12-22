@@ -277,8 +277,20 @@ main p{
     border: none;
 }
 
+/* SECTION PARTNERS------------- */
 
+.partners .row{
+    flex-wrap: wrap;
+    gap: 0px;
+}
 
+.colfull30{
+    flex-basis:calc(100%/3);
+}
+
+.colfull{
+    flex-basis: 100%;
+}
 
 /* ----FOOTER RULES -------------------------------------------------------- */
 
