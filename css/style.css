@@ -64,7 +64,7 @@ section{
     margin: 0 auto;
 }
 
-.container_hero{
+.container_big{
     max-width: 1258px;
     margin: 0 auto;
     position: relative;
@@ -98,6 +98,10 @@ section{
 
 .col6{
     flex-basis: calc(100% *(6/12));
+}
+
+.col5{
+    flex-basis: calc(100% /5);
 }
 
 .col4{
@@ -370,8 +374,28 @@ main p{
 .center__cco{
     background-color: #FFD830;
 }
+
+/* SECTION DOMANDE------------- */
+
+
+
 /* ----FOOTER RULES -------------------------------------------------------- */
 
+
+
+footer{
+    background-color:rgb(0, 0, 0);
+    color: #fff;
+    padding: 72px 0;
+}
+
+
+
+
+footer ul{
+    display: flex;
+    flex-direction: column;
+}
 
 
 
