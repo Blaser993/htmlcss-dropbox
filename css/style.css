@@ -289,6 +289,10 @@ main p{
 
 /* SECTION LOGHI full------------- */
 
+.loghifull{
+    max-height: 100vh;
+}
+
 .loghifull .row{
     flex-wrap: wrap;
     gap: 0px;
@@ -301,15 +305,71 @@ main p{
 
 .colfull{
     flex-basis: 100%;
+    color: #61082B;
+    background-color: #B4D0E7;
 }
 
 .colfull50{
     flex-basis: calc(100%/2);
     aspect-ratio: 1;
-    background-color: #B4D0E7;
-    border: 2px solid tomato;
+    -background-color: rgba(50, 50, 50, 0,5);
 }
 
+.bg--ligthgrey{
+    background-color: #F5F5F5;
+
+}
+
+.svg--white{
+    filter: invert(100);
+}
+
+.size--small{
+    max-width: 50%;
+}
+
+.center{
+    height: 100%;
+    display: flex;
+}
+
+.position--center{
+    display: inline-block;
+    margin: auto;
+}
+
+.center__designit{
+    background-color: #A2D39B;
+    border: 16px solid #D1E9CD;
+}
+
+.center__asu{
+    background-color: #61082B;
+}
+
+.center__florida{
+    background-color: #0093CE;
+}
+
+.center__topps{
+    background-color: #FF1C1C;
+}
+
+.center__wbr{
+    background-color: #D5001F;
+}
+
+.center__hearst{
+    background-color: #B4D0E7;
+}
+
+.center__lonelyplanet{
+    background-color: #0D2481;
+}
+
+.center__cco{
+    background-color: #FFD830;
+}
 /* ----FOOTER RULES -------------------------------------------------------- */
 
 
