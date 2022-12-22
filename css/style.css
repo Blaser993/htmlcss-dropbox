@@ -179,6 +179,7 @@ main p{
 
 
 
+
 /* FIRST SECTION -----------------------------------*/
 
 .first{
@@ -270,6 +271,10 @@ main p{
 
 .business .col{
     padding: 0 25px;
+}
+
+.business .card{
+    border: none;
 }
 
 
