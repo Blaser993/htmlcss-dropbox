@@ -121,13 +121,13 @@ img{
 }
 
 .list-item{
+    display: block;
     padding: 0 18px;
     line-height: 34px;
     flex-shrink: 0;
 }
 
 .logo{
-    align-self: center;
     max-height: 34px;
     margin-right: 18px;
     padding: 0;
