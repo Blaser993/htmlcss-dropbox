@@ -200,10 +200,6 @@ main p{
     padding: 24px 0;
 }
 
-section{
-    min-height: fit-content;
-}
-
 
 .card{
     display: flex;
@@ -266,7 +262,15 @@ section{
     border: 1px solid black;
 }
 
+/* SECTION BUSINESS------------- */
 
+.business .row{
+    margin: 0 -25px;
+}
+
+.business .col{
+    padding: 0 25px;
+}
 
 
 
