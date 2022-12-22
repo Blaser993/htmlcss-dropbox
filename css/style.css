@@ -70,11 +70,13 @@ img{
 .container{
     max-width: 1040px;
     margin: 0 auto;
+    border: 2px solid red;
 }
 
 .row{
     display: flex;
     flex-wrap: wrap;
+    row-gap: 50px;
 }
 
 .col{
@@ -203,16 +205,40 @@ section{
     min-height: fit-content;
 }
 
+
+.card{
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+}
+
 .first .row{
-    padding: 12px 32px;
+    margin: 0 -25px;
+}
+
+.first .col{
+    padding: 0 25px;
+}
+
+.card .intestazione{
+    background-color: antiquewhite;
+    padding: 12px;
+    border: 1px solid tomato;
+}
+
+.card .corpo_carta{
+    background-color: antiquewhite;
+    padding: 12px;
+    flex-grow: 1;
+    border: 1px solid tomato;
 }
 
 
 
 
-
-
-
+/* .cardteam{
+    margin-top: 50px;
+} */
 
 
 .text{
@@ -236,32 +262,11 @@ section{
 
 .card.debug{
     background-color: aquamarine;
-    min-height: 24px;
-}
-
-.card .intestazione{
-    background-color: antiquewhite;
-    padding: 12px;
-    border: 1px solid tomato;
-}
-
-.card .corpo_carta{
-    background-color: antiquewhite;
-    padding: 12px;
-    min-height: 224px;
-    border: 1px solid tomato;
 }
 
 
-.debug -main{
-    background-color:bisque;
-    padding:12px;
-}
 
-.debug -section{
-    background-color:floralwhite;
-    padding:12px;
-}
+
 
 .debug footer{
     background-color:rgb(0, 0, 0);
@@ -269,6 +274,5 @@ section{
     color: azure;
 }
 
--.first :only-child{
-    padding: 12px;
-}
+
+
