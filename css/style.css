@@ -179,7 +179,7 @@ main p{
 
 
 
-/* FIRST SECTION */
+/* FIRST SECTION -----------------------------------*/
 
 .first{
     margin-top: 72px;
@@ -233,15 +233,38 @@ section{
 
 
 
-
-/* .cardteam{
-    margin-top: 50px;
-} */
-
-
 .text{
     display: inline-block;
 }
+
+/* ----PARTNER SECTION-------- */
+
+.row-vertical{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.partner__image{
+    flex-basis: calc(100%*0.63);
+}
+
+.partner__text{
+    flex-basis: calc(100%*0.3);
+    width: 100%;
+}
+
+.text__flex{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.text__flex .text{
+    flex-grow: 11;
+}
+
 
 
 /* ----FOOTER RULES -------------------------------------------------------- */
