@@ -248,22 +248,26 @@ section{
 .partner__image{
     flex-basis: calc(100%*0.63);
 }
-
-.partner__text{
-    flex-basis: calc(100%*0.3);
-    width: 100%;
-}
-
 .text__flex{
     height: 100%;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 
-.text__flex .text{
-    flex-grow: 11;
+.partner__text{
+    flex-basis: calc(100%*0.32);
+    width: 100%;
 }
+
+.button--outline{
+    color: black;
+    background-color: white;
+    border: 1px solid black;
+}
+
+
+
 
 
 
