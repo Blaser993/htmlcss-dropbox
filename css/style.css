@@ -92,6 +92,10 @@ section{
     flex-basis: calc(100% *(12/12));
 }
 
+.col9{
+    flex-basis: calc(100% *(9/12));
+}
+
 .col8{
     flex-basis: calc(100% *(8/12));
 }
@@ -102,6 +106,11 @@ section{
 
 .col5{
     flex-basis: calc(100% /5);
+}
+
+.col3{
+    flex-basis: calc(100% /3);
+
 }
 
 .col4{
@@ -239,6 +248,12 @@ main p{
     border-top: 1px solid lightgray;
 }
 
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
 .card li{
     display: flex;
     padding: 12px 0;
@@ -254,11 +269,19 @@ li .icon{
     flex-basis: 24px;
     text-align: center;
     flex-shrink: 0;
-    margin-right: 8px;
+    margin-right: 4px;
     margin-top: 4px;
 }
-l
 
+.col4.flex{
+    justify-content: flex-end;
+}
+
+.full_size {
+    text-align: center;
+    width: 100%;
+    padding: auto 25px;
+}
 
 
 
