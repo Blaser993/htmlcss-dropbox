@@ -199,14 +199,7 @@ main p{
     padding: 36px 0;
 }
 
-.first .icon{
-    font-size: 46px;
-    padding-top: 2em;
-}
 
-.first li{
-    display: block;
-}
 
 
 .form{
@@ -231,15 +224,26 @@ main p{
 
 .card .intestazione{
     padding: 24px;
-
+    text-align: center;
+    
 }
 
 .card .corpo_carta{
-    padding: 24px;
+    padding: 24px 32px;
     flex-grow: 1;
     border-top: 1px solid lightgray;
 }
 
+.card li{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+li .icon{
+    font-size: 16px;
+    flex-basis: 24px;
+}
 
 
 .text{
