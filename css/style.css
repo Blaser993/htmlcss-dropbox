@@ -194,6 +194,11 @@ main p{
 
 /* FIRST SECTION -----------------------------------*/
 
+.card p{
+    display: block;
+}
+
+
 .first{
     margin-top: 72px;
     padding: 36px 0;
@@ -236,19 +241,26 @@ main p{
 
 .card li{
     display: flex;
-    flex-direction: row;
+    padding: 12px 0;
     
+}
+
+.card ul{
+    margin-left: -12px;
 }
 
 li .icon{
     font-size: 16px;
     flex-basis: 24px;
+    text-align: center;
+    flex-shrink: 0;
+    margin-right: 8px;
+    margin-top: 4px;
 }
+l
 
 
-.text{
-    display: inline-block;
-}
+
 
 /* ----PARTNER SECTION-------- */
 
