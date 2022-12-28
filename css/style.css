@@ -34,7 +34,15 @@ p{
 }
 
 h2{
-    font-size: 40px;
+    font-size: 42px;
+}
+
+h3{
+    font-size: 26px;
+}
+
+h4{
+    font-size: 18px;
 }
 
 a{
@@ -225,7 +233,10 @@ main p{
 }
 
 
-
+.blue i{
+    color: #0061FF;
+    font-weight: 900;
+}
 
 .form{
     padding: 24px 0;
