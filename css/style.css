@@ -19,6 +19,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Almarai:wght@300;400;700;800&display=swap'); 
 @import url('https://fonts.googleapis.com/css2?family=Khula:wght@800&display=swap');
 
+
+
+
 *{
     margin: 0px;
     padding: 0px;
@@ -274,13 +277,17 @@ li .icon{
 }
 
 .col4.flex{
-    justify-content: flex-end;
+    padding-left: 75px;
 }
 
 .full_size {
     text-align: center;
     width: 100%;
     padding: auto 25px;
+}
+
+.top_align{
+    margin-top: 0px;
 }
 
 
