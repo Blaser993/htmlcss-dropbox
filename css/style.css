@@ -39,10 +39,13 @@ h2{
 
 h3{
     font-size: 26px;
+    margin: 24px 0;
 }
 
 h4{
     font-size: 18px;
+    padding-left: 12.5px;
+
 }
 
 a{
@@ -57,6 +60,10 @@ h3{
 ul,
 li{
     display: inline-block;
+}
+
+ul{
+    padding-top: 44px;
 }
 
 html{
@@ -259,7 +266,7 @@ main p{
 }
 
 .card .intestazione{
-    padding: 24px;
+    padding: 12px;
     text-align: center;
     
 }
@@ -291,8 +298,11 @@ li .icon{
     flex-basis: 24px;
     text-align: center;
     flex-shrink: 0;
-    margin-right: 4px;
     margin-top: 4px;
+}
+
+.icon{
+    margin-right: 4px;
 }
 
 .col4.flex{
@@ -300,15 +310,50 @@ li .icon{
 }
 
 .full_size {
+    max-height: 54px;
     text-align: center;
     width: 100%;
     padding: auto 25px;
 }
 
 .top_align{
-    margin-top: 0px;
+    margin: 16px 0px;
     justify-content: center;
     align-items: center;
+}
+
+.short{
+    max-width: 65%;
+}
+
+.subtitle{
+    font-weight: 700;
+    margin:8px 0;
+}
+
+.description{
+    color: gray;
+    margin:8px 0;
+}
+
+span{
+    text-decoration: underline;
+    color: blue;
+}
+
+
+
+.line::after{
+    content: "";
+    display: block;
+    height: 1px;
+    width: 56px;
+    background-color: lightgray;
+    margin-top: 42px;
+}
+
+.text{
+    padding-top: 42px;
 }
 
 
