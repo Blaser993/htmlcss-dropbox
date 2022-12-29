@@ -62,9 +62,6 @@ li{
     display: inline-block;
 }
 
-ul{
-    padding-top: 44px;
-}
 
 html{
     font-family: 'Almarai', sans-serif;
@@ -293,6 +290,10 @@ main p{
     margin-left: -12px;
 }
 
+.card ul{
+    padding-top: 44px;
+}
+
 li .icon{
     font-size: 16px;
     flex-basis: 24px;
@@ -347,7 +348,7 @@ span{
     content: "";
     display: block;
     height: 1px;
-    width: 56px;
+    width: 25%;
     background-color: lightgray;
     margin-top: 42px;
 }
@@ -369,11 +370,18 @@ span{
 .partner__image{
     flex-basis: calc(100%*0.63);
 }
+
 .text__flex{
+    padding: 0px;
+    padding-top: 42px;
     height: 100%;
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: flex-start;
+}
+
+.text__flex h3{
+    margin: 0px;
 }
 
 .partner__text{
@@ -385,7 +393,15 @@ span{
     color: black;
     background-color: white;
     border: 1px solid black;
+    margin: 0;
 }
+
+.text__title,
+.text__paragraph,
+.text__button{
+    padding: 16px 0;
+}
+
 
 /* SECTION BUSINESS------------- */
 
