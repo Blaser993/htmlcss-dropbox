@@ -419,10 +419,20 @@ span{
     border: none;
 }
 
+.business .container{
+    margin-bottom: 72px;
+}
+
+.textlink{
+    display: block;
+    margin-top: 46px;
+}
+
 /* SECTION LOGHI full------------- */
 
 .loghifull{
     max-height: 100vh;
+    padding-top: 0;
 }
 
 .loghifull .row{
