@@ -513,6 +513,36 @@ span{
     background-color: #FFD830;
 }
 
+.flex.box{
+    flex-direction: column;
+    padding: 36px;
+}
+
+.box__image{
+    max-width: 55%;
+}
+
+.box__text{
+    margin-top: 48px;
+    font-size: 18px;
+}
+
+.button2{
+    color: black;
+    background-color: white;
+}
+
+.loghifull .container .row{
+    min height: ;
+    padding: 144px 0;
+    justify-content: space-between;
+}
+
+.loghifull .col4 a{
+    width: 100%;
+    text-align: center;
+}
+
 /* SECTION DOMANDE------------- */
 
 
