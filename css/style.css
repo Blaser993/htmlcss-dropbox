@@ -90,8 +90,6 @@ section{
 .container_big{
     max-width: 1258px;
     margin: 0 auto;
-    position: relative;
-    top: 72px;
 }
 
 .container{
@@ -566,15 +564,55 @@ span{
 footer{
     background-color:rgb(0, 0, 0);
     color: #fff;
-    padding: 72px 0;
+
+
 }
 
+footer section .row{
+    align-items: center;
 
+}
 
+footer section{
+    padding: 12px;
+
+}
 
 footer ul{
     display: flex;
     flex-direction: column;
+}
+
+footer ul{
+    font-size: 26px;
+    font-weight: 900;
+    padding: 36px 0;
+}
+
+footer li{
+    font-size: 16px;
+    font-weight: 400;
+    padding: 12px 0;
+}
+
+footer h4{
+    padding: 36px 0;
+    font-size: 26px;
+}
+
+.widget p,
+.widget i{
+    display: inline-block;
+    color: grey;
+    padding: 8px 4px;
+}
+
+.widget{
+    align-items: center;
+}
+
+footer .line::after{
+    background-color: grey;
 }
 
 
@@ -583,10 +621,6 @@ footer ul{
 /* ----DEBUG RULES -------------------------------------------------------- */
 /* per rimuovere cancella classe debug dal body */
 
-.debug .debug{
-    border: 2px dashed tomato;
-
-}
 
 
 
@@ -594,11 +628,8 @@ footer ul{
 
 
 
-.debug footer{
-    background-color:rgb(0, 0, 0);
-    padding:12px;
-    color: azure;
-}
+
+
 
 
 
